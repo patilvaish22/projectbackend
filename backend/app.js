@@ -15,6 +15,8 @@ app.use(cors());
 app.use(morgan("dev"));
 
 
+
+
 mongoose.connect('mongodb://127.0.0.1:27017/ecommerceShop')
 .then(()=>{
     console.log("DB is connected");
